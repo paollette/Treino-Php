@@ -1,0 +1,119 @@
+nav{
+    background-color: rgb(255, 217, 0);
+    height: 350px;
+    margin-left: 380px;
+    margin-right: 450px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color:  black;
+    box-shadow: 0 0 15px #c7c7c7;
+    font-family:'Arial','sans serif'; /* carregar a fonte no google fonte */
+}
+
+#titulo h2{
+    font-size: 22px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+#formulario{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+nav #botoes{
+    margin-left: 155px;
+    margin-top: 3px;   
+}
+
+#botoes input{
+    background-color: black;
+    color: white
+}
+nav #botoes input:hover{
+    background-color:white;
+    color: black;
+}
+.imagem{
+    height: 200px;
+    width: 100px;
+    margin-top: -250px;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.tabela .tabela-container{
+    width: 750px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 195px;
+    margin-top: 110px;
+    background-color: rgb(255, 217, 0);
+    border-width: 2px; 
+    border-style: solid;
+    border-color:  black;
+    border-radius: 15px;
+    font-family:'Arial','sans serif'; 
+    box-shadow: 0 0 15px rgb(185, 185, 185);
+}
+
+.tabela-container .h2{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.tabela-container .botoes input{
+    background-color: black;
+    color: white
+}
+
+/* Estilização da tabela*/
+
+.table-container {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px #c7c7c7;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td {
+    color: #333;
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+}
+
+/* /*
